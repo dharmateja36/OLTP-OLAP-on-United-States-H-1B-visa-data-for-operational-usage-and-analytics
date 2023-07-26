@@ -1,3 +1,7 @@
 # OLTP-OLAP-on-United-States-H-1B-visa-data-for-operational-usage-and-analytics
 ## Introduction
 By implementing OLTP and OLAP systems on H-1B visa data, we can process real-time data from operational data stores (ODS) and perform analytical tasks on the data warehouse (DWH). The H-1B visa is a nonimmigrant work visa for highly educated foreign professionals in specialty jobs requiring a bachelor's degree or equivalent. Using an Entity Relationship (ER) model derived from U.S. Citizenship and Immigration Services (USCIS) data, we developed the OLTP database on a cloud-based MySQL instance. Data from MySQL is extracted, transformed with Python, and loaded into the data warehouse, where analytics are performed and visualized to understand geographical, economical, and educational factors of applicants.
+## Overview and Architecture
+The objective is to automate the implementation of OLTP and OLAP systems in a unified data pipeline on the cloud. After thorough research on different cloud service providers, we have chosen Amazon Web Services (AWS) as the primary platform for this project due to its competitive pricing and versatile service offerings. The data, obtained in raw CSV format from USCIS, consists of 154 columns and is currently unnormalized.
+![image](https://github.com/dharmateja36/OLTP-OLAP-on-United-States-H-1B-visa-data-for-operational-usage-and-analytics/assets/117693500/0aa093a4-aeb3-4a8e-a0e2-09dded3a5d65)
+
