@@ -67,9 +67,14 @@ Based on the H1-B data analysis above, it is evident that the majority of H1-B v
 • Out of all the applications, 70.32% of applicants received an H1-B visa, 22.01% had their visa denied, and 7.67% withdrew their applications.
 ## Technical Difficulties
 • The collected data contained numerous missing and inconsistent values, requiring extensive efforts to transform it into clean and usable data.
+
 • The decision to adopt AWS, although beneficial, posed a challenge for the entire group as setting up the architecture and comprehending its functionalities demanded significant effort.
+
 • Several columns in the data have null values, necessitating careful consideration during the analysis.
+
 • To avoid sharing access keys in the code, we explored alternative methods to provide access, opting for secure access through files.
+
 • Inserting the data into databases and data warehouses proved to be laborious due to certain issues and complexities encountered during development.
+
 ## Future Work
 The entire process is automated, and the on-demand pipeline efficiently handles data for future fiscal years seamlessly. By adjusting parameters in the data warehouse, data for upcoming fiscal quarters can be easily appended to the existing data warehouse tables. While the current analysis focuses on one type of visa, the system is designed to accommodate multiple types, allowing for a broader range of analyses to be performed.
