@@ -53,3 +53,23 @@ After inserting data into the snowflake, using SQL we queried the data for the r
 ## Data Visualization
 ![image](https://github.com/dharmateja36/OLTP-OLAP-on-United-States-H-1B-visa-data-for-operational-usage-and-analytics/assets/117693500/aa0ef781-ff59-4a32-9e64-ab692647c98e)
 
+## Results
+Based on the H1-B data analysis above, it is evident that the majority of H1-B visa applicants who applied and got approved are from India.
+
+• Among the applicants, those with majors in Engineering fields such as "Computer Science," "Computer Engineering," and "Business Administration" have the highest number of applications.
+
+• Prominent IT giants like Cognizant, Google, Microsoft, and Apple are the top companies filing for H1-B visas for their employees from various countries, making up more than 30% of the total applications.
+
+• California state has the largest number of applicants, with most of them working in the role of "Software Engineer," totaling 2,006 individuals.
+
+• The average salary for applicants with approved visa status is $112,350, and the highest average salary is observed among applicants from California state.
+
+• Out of all the applications, 70.32% of applicants received an H1-B visa, 22.01% had their visa denied, and 7.67% withdrew their applications.
+## Technical Difficulties
+• The collected data contained numerous missing and inconsistent values, requiring extensive efforts to transform it into clean and usable data.
+• The decision to adopt AWS, although beneficial, posed a challenge for the entire group as setting up the architecture and comprehending its functionalities demanded significant effort.
+• Several columns in the data have null values, necessitating careful consideration during the analysis.
+• To avoid sharing access keys in the code, we explored alternative methods to provide access, opting for secure access through files.
+• Inserting the data into databases and data warehouses proved to be laborious due to certain issues and complexities encountered during development.
+## Future Work
+The entire process is automated, and the on-demand pipeline efficiently handles data for future fiscal years seamlessly. By adjusting parameters in the data warehouse, data for upcoming fiscal quarters can be easily appended to the existing data warehouse tables. While the current analysis focuses on one type of visa, the system is designed to accommodate multiple types, allowing for a broader range of analyses to be performed.
